@@ -34,6 +34,12 @@ private:
 };
 
 template <class T>
+bool CircularArray<T>::is_empty()
+{
+    return 1;
+}
+
+template <class T>
 CircularArray<T>::CircularArray()
 {
     CircularArray(0);
